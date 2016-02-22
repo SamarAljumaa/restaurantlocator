@@ -1,0 +1,515 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block;
+}
+
+audio, canvas, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+q {
+  quotes: \201C \201D \2018 \2019;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -.5em;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+button, input {
+  line-height: normal;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled], input[disabled] {
+  cursor: default;
+}
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body, figure {
+  margin: 0;
+}
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body .wrapper {
+  max-width: 1080px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+h1 {
+  font-size: 7rem;
+}
+
+h2 {
+  font-size: 3.8rem;
+}
+
+h3 {
+  font-size: 3.5rem;
+}
+
+h4 {
+  font-size: 2.3rem;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  color: #5A5353;
+}
+
+.heroHeader {
+  height: 100vh;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.5)), url(../Images/grocery.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.5)), url(../Images/grocery.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+}
+
+.heroHeader .wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 0;
+}
+
+.heroHeader .wrapper h1, .heroHeader .wrapper h3 {
+  color: #F0C873;
+  text-shadow: 0.5px 0px 0px whitesmoke;
+}
+
+.heroHeader .wrapper h3 {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
+
+.heroHeader .wrapper .bannerContainer img.banner {
+  width: 90%;
+}
+
+.heroHeader .wrapper .arrow {
+  position: absolute;
+  bottom: 0;
+  left: -webkit-calc(50% - 25px);
+  left: calc(50% - 25px);
+}
+
+.heroHeader .wrapper .arrow img {
+  width: 70px;
+}
+
+.selection {
+  height: 100vh;
+  text-align: center;
+  background: url(../Images/StiffPaper.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 15px;
+}
+
+.selection .wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  width: 100%;
+  padding: 20px;
+}
+
+.selection .wrapper h4 {
+  font-size: 2.7rem;
+  line-height: 3.8rem;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  color: #5A5353;
+}
+
+.selection .wrapper .smartDevices {
+  width: 20%;
+}
+
+.selection .wrapper .smartDevices img {
+  width: 100%;
+}
+
+.selection .wrapper .instructions {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  width: 100%;
+  padding: 40px 0;
+}
+
+.selection .wrapper .instructions .streetAddress, .selection .wrapper .instructions .theMapAndPin, .selection .wrapper .instructions .hotFood {
+  width: 20%;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+}
+
+.selection .wrapper .instructions .streetAddress h2, .selection .wrapper .instructions .streetAddress h4, .selection .wrapper .instructions .theMapAndPin h2, .selection .wrapper .instructions .theMapAndPin h4, .selection .wrapper .instructions .hotFood h2, .selection .wrapper .instructions .hotFood h4 {
+  margin: 0;
+  color: #A96DA3;
+}
+
+.selection .wrapper .instructions .rightArrow {
+  width: 15%;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+}
+
+.selection .wrapper .instructions .rightArrow img {
+  width: 30%;
+}
+
+.selection .wrapper #theForm {
+  margin: 0 auto;
+  width: 50%;
+  padding: 20px 0 40px;
+}
+
+.selection .wrapper #theForm #userAddress {
+  width: 80%;
+  height: 50px;
+  float: left;
+  border: none;
+  background: #E2E0E8;
+}
+
+.selection .wrapper #theForm
+#userAddress[type="text"] {
+  font-size: 2rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.selection .wrapper #theForm #submitButton {
+  width: 20%;
+  height: 50px;
+  border: none;
+  background: #F0C873;
+  float: left;
+}
+
+.selection .wrapper #theForm
+#submitButton[type="submit"] {
+  font-size: 2rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+@media (max-width: 940px) {
+  .selection .wrapper .instructions {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 860px) {
+  .selection .wrapper #theForm {
+    width: 75%;
+  }
+}
+
+@media (max-width: 680px) {
+  .selection .wrapper .instructions {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .selection .wrapper .instructions .rightArrow {
+    display: none;
+  }
+  .selection .wrapper .instructions .streetAddress, .selection .wrapper .instructions .theMapAndPin, .selection .wrapper .instructions .hotFood {
+    width: 28%;
+  }
+}
+
+@media (max-width: 590px) {
+  .selection .wrapper #theForm {
+    width: 95%;
+  }
+  .selection .wrapper .instructions .streetAddress, .selection .wrapper .instructions .theMapAndPin, .selection .wrapper .instructions .hotFood {
+    width: 33%;
+  }
+  .selection .wrapper #theForm #userAddress {
+    width: 75%;
+  }
+  .selection .wrapper #theForm #submitButton {
+    width: 25%;
+  }
+}
+
+.results .wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: flow wrap;
+      -ms-flex-flow: flow wrap;
+          flex-flow: flow wrap;
+}
+
+.results .wrapper #options {
+  width: 50%;
+}
+
+.results .wrapper #options .eateries {
+  padding: 20px;
+  line-height: 4rem;
+}
+
+.results .wrapper #options .eateries h2, .results .wrapper #options .eateries h3 {
+  margin: 0;
+}
+
+.results .wrapper #options .eateries h2 {
+  color: #A96DA3;
+  font-size: 3rem;
+}
+
+.results .wrapper #options .eateries h3 {
+  padding-left: 20px;
+  font-size: 1.8rem;
+  color: #5A5353;
+}
+
+.results .wrapper #map {
+  width: 50%;
+  height: 500px;
+}
+
+@media (max-width: 786px) {
+  .results .wrapper {
+    display: block;
+  }
+  .results .wrapper #map {
+    width: 100%;
+  }
+  .results .wrapper #options {
+    width: 100%;
+    height: 350px;
+  }
+  .results .wrapper #options .eateries {
+    line-height: 2rem;
+  }
+  .results .wrapper #options .eateries h2 {
+    font-size: 2.2rem;
+    padding-bottom: 5px;
+  }
+  .results .wrapper #options .eateries h3 {
+    font-size: 1.4rem;
+  }
+}
+
+.footer {
+  background-color: black;
+  padding: 5px;
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+}
+
+p, a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+@media (max-width: 786px) {
+  p, a {
+    font-size: 1.2rem;
+  }
+}

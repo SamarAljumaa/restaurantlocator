@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Halal Restaurants</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed|Raleway' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="styles/stylesheet.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<!-- beginning of heroHeader -->
+	<section class="heroHeader">
+		<div class="wrapper">
+			<h1>Halal Restaurant Locater</h1>
+			<h3>Discover the halal restaurant that are located around you!</h3>
+			<div class="bannerContainer">
+				<img class="banner" src="Images/appBanner.png" alt="Banner of with restaurant icons, menu, utinsels, cellphone with map locator, and cresent mooon">
+			</div>
+			<div class="arrow">
+				<a class="smoothScroll" href="#selection"><img src="Images/projectSvgs/doubleArrowDown.svg" alt=""></a>
+			</div>
+		</div>
+	</section>
+	<!-- End of heroHeader -->
+
+	<!-- Beginning of selection section -->
+	<section class="selection" id="selection">
+		<div class="wrapper">
+		<h4>The Halal restaurant locater is a simple and sleek web app that can be efficiently used from anywhere and with any device</h4>
+		<!-- <div class="smartDevices">
+			<img src="Images/projectSvgs/smartDevice.svg" alt="">
+		</div> -->
+		<div class="instructions">
+			<div class="streetAddress">
+				<h2>Step 1</h2>
+				<img src="Images/projectSvgs/addressBook.svg" alt="address book">
+				<h4>Submit your address</h4>
+			</div>
+			<div class="rightArrow">
+				<img src="Images/projectSvgs/arrowRight.svg" alt="arrow right">
+			</div>
+			<div class="theMapAndPin">
+				<h2>Step 2</h2>
+				<img src="Images/projectSvgs/mapAndPin.svg" alt="a map with a pin locator">
+				<h4>Get restaurant location </h4>
+			</div>
+			<div class="rightArrow">
+				<img src="Images/projectSvgs/arrowRight.svg" alt="arrow right">
+			</div>
+			<div class="hotFood">
+				<h2>Step 3</h2>
+				<img src="Images/projectSvgs/hotPlate.svg" alt="hot plater">
+				<h4>Go Get your delicious food</h4>
+			</div>
+		</div>
+		<form id="theForm" class="clearfix">
+			<input type="text" id="userAddress">
+			<input type="submit" value="Submit" id="submitButton">
+		</form>
+		</div>
+	</section>
+	<!-- End of selection section -->
+
+	<!-- Beginning of results section -->
+	<section class="results">
+		<div class="wrapper">
+			<div id="map"></div>
+			<div id="options"></div>
+		</div>
+	</section>
+	<!-- End of results section -->
+	
+	<!-- Beginning of footer section -->
+	<section class="footer">
+		<div class="wrapper">
+			<p> Designed and Built by: <a href="http://samaraljumaa.com" target="blank">Samar Aljumaa</a></p>
+			<p>Application built using <a href="https://foursquare.com/">Foursquare</a> Api, and <a href="https://maps.google.ca/
+			">Google Maps</a> Api.</p>
+		</div>
+	</section>
+	<!-- End of footer section -->
+
+	<!-- Web Credits *****************************
+	Built using:
+	FOURSQUARE Api, Google Maps Api
+
+	Hero Image: http://unsplash.it 
+
+	Icons & Images from The Noun Project
+		Star And Crescent: By Mister Pixel
+		Shish Kebab: By Arthur Shlain
+		Maps: By Spicy Icons
+		Arrow Down: By KΛPKLΛM
+		Arrow Right: By KΛPKLΛM
+		Cloche: By André Luiz Gollo
+		Menu: By Ralf Schmitzer
+		Tableware: By Blaise Sewell
+		Soda: By Gilad Sotil,
+		Map: By Milky 
+		Address Book: By Eightemdi
+		Bowl: By artworkbean
+		Table: By André Luiz Gollo
+
+	Second Background Image, StiffPaper.png:
+	http://www.pixeden.com/graphic-web-backgrounds/subtle-tile-patterns-vol7
+	
+	SmoothScroll JS Plugin by Ariel Flesler 
+
+	FitText jQuery Plugin: http://fittextjs.com/
+
+	****************************************** -->
+
+	<!-- JavaScript -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script src="script.js"></script>
+<script src="smoothscroll.js"></script>
+<script src="jquery.fittext.js"></script>
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDje3zvGCqffO4ibhM_8GMft9l4x0gUHEY&callback=initMap">
+</script>
+</body>
+</html>

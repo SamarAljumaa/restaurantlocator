@@ -1,0 +1,135 @@
+.selection{
+	height: 100vh;
+	text-align: center;
+	background: url(../Images/StiffPaper.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column; 
+	padding:15px;
+	.wrapper{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin:auto;
+		width: 100%;
+		padding: 20px;
+		h4{
+			font-size: 2.7rem;
+			line-height: 3.8rem;
+			margin: 0;
+			font-family: 'Raleway', sans-serif;
+			color:  #5A5353;
+		}
+		.smartDevices{
+			width: 20%;
+			img{
+				width: 100%;
+			}
+		}
+		.instructions{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			width: 100%;
+			padding: 40px 0;
+		// align-items: center;
+		.streetAddress,  .theMapAndPin, .hotFood{
+			width:20%;
+			align-self: center;
+			h2, h4{
+				margin: 0;
+				color: #A96DA3;
+			}
+		}
+		.rightArrow{
+			width: 15%;
+			align-self: center;
+			img{
+				width: 30%;
+			}
+		}
+		}
+		#theForm{
+			margin: 0 auto;
+    	width: 50%;
+    	padding: 20px 0 40px;
+			#userAddress{
+				width: 80%;
+				height: 50px;
+				float: left;
+				border: none;
+    		background: #E2E0E8;
+			}
+			#userAddress[type="text"]
+			{
+			  font-size: 2rem;
+			  font-family: 'Raleway', sans-serif;
+			}
+			#submitButton{
+				width: 20%;
+		    height: 50px;
+		    border: none;
+		    background: #F0C873;
+		    float: left;
+			}
+			#submitButton[type="submit"]
+			{
+			  font-size: 2rem;
+			  font-family: 'Raleway', sans-serif;
+			}
+		}
+
+	}
+}
+
+@media (max-width: 940px){
+	.selection .wrapper .instructions {
+		justify-content: center;
+	}
+}	
+
+@media (max-width: 860px){
+	.selection .wrapper #theForm {
+		width: 75%;
+	}
+}	
+
+@media (max-width: 680px){
+
+	.selection .wrapper .instructions {
+		justify-content: space-between;
+	}
+	.selection .wrapper .instructions .rightArrow {
+		display: none;
+	}
+	.selection .wrapper .instructions .streetAddress, .selection .wrapper .instructions .theMapAndPin, .selection .wrapper .instructions .hotFood{
+		width: 28%;
+	}	
+}	
+
+@media (max-width: 590px){
+	.selection .wrapper #theForm {
+		width: 95%;
+	}
+	.selection .wrapper .instructions .streetAddress, .selection .wrapper .instructions .theMapAndPin, .selection .wrapper .instructions .hotFood{
+		width: 33%;
+	}	
+	.selection .wrapper #theForm #userAddress {
+		width: 75%;
+	}
+	.selection .wrapper #theForm #submitButton {
+		width: 25%;
+	}
+}	
+// @media (max-width: 480px){
+// 	.selection .wrapper .instructions {
+// 		// flex-direction: column;
+// 		// margin: 0 auto;
+// 	}
+// 	.selection .wrapper .instructions .streetAddress, .selection .wrapper .instructions .theMapAndPin, .selection .wrapper .instructions .hotFood{
+// 		// width: 50%;
+// 	}	
+// }	

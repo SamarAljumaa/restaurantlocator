@@ -1,0 +1,45 @@
+// font-family: 'Roboto Condensed', sans-serif;
+// font-family: 'Raleway', sans-serif;
+//body color: 5A5353
+
+html{
+	font-size: 62.5%;
+}
+body{
+	.wrapper{
+		max-width: 1080px;
+		margin: 0 auto;	
+		width: 80%;		
+	}
+}
+
+h1{
+	font-size: 7rem;
+}
+
+h2{
+	font-size: 3.8rem;
+}
+
+h3{
+	font-size: 3.5rem;
+}
+
+h4{
+	font-size: 2.3rem;
+}
+
+h1, h2, h3, h4{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+	color: #5A5353;
+}
+
+// #map{
+// 	height: 500px;
+// 	width: 500px;
+
+// }
